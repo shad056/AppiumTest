@@ -1,0 +1,20 @@
+# Created at 2021-05-25T14:56:03.991
+org.testng.TestNGException: java.lang.NullPointerException
+	at org.testng.TestNG.parseSuite(TestNG.java:356)
+	at org.testng.TestNG.initializeSuitesAndJarFile(TestNG.java:376)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1011)
+	at org.testng.TestNG.run(TestNG.java:1023)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+	at org.testng.xml.Parser.parse(Parser.java:165)
+	at org.testng.xml.Parser.parse(Parser.java:250)
+	at org.testng.TestNG.parseSuite(TestNG.java:324)
+	... 10 more
+
+

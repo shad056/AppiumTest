@@ -1,0 +1,9 @@
+qa\mobile\test1.class
+com\qa\listeners\TestListener.class
+qa\mobile\BaseTest$1.class
+com\qa\pages\TextFieldsPage.class
+com\qa\utils\TestUtils.class
+qa\mobile\BaseTest.class
+com\qa\pages\HomePage.class
+com\qa\pages\HeaderPage.class
+com\qa\pages\ViewsPage.class
