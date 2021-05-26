@@ -181,7 +181,7 @@ public class BaseTest {
 				      //When unlocking a device using pin, use the following capabilities
 				      //desiredCapability.setCapability("unlockType", "pin");
 				     // desiredCapability.setCapability("unlockKey", "1111");
-				      
+				      //
 				      //When unlocking a device using pattern, use the following capabilities
 				      //desiredCapability.setCapability("unlockType", "pattern");
 				      //desiredCapability.setCapability("unlockKey", "125478963"); //value is deducted by counting the dots on screen according to their positions
