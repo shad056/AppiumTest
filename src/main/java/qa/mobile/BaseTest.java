@@ -157,8 +157,8 @@ public class BaseTest {
 				     }
 				      
 				     //Use this desiredCapability when installing the app for the first time:
-				     // String appURL = getClass().getResource(prop.getProperty("androidAppLocation")).getFile();
-				      //desiredCapability.setCapability(MobileCapabilityType.APP, appURL);
+				      String appURL = getClass().getResource(prop.getProperty("androidAppLocation")).getFile();
+				      desiredCapability.setCapability(MobileCapabilityType.APP, appURL);
 				     
 				      //Once an app is installed in emulator we have to get the appPackage and appActivity
 				      //Instructions to get them: open cmd and type: adb shell
