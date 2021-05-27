@@ -8,8 +8,10 @@
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="GeneralTest"/>
+          <include name="afterSuite"/>
           <include name="JustaTest"/>
           <include name="afterMethod"/>
+          <include name="beforeSuite"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.qa.tests.AppTests -->
